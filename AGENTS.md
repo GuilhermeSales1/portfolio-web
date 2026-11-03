@@ -1,9 +1,11 @@
 # AI Project Instructions
 
 ## Project
+
 Personal portfolio built with Next.js, TypeScript and Tailwind CSS.
 
 ## Technology Stack
+
 - Next.js with App Router
 - TypeScript (strict mode)
 - Tailwind CSS
@@ -14,6 +16,7 @@ Personal portfolio built with Next.js, TypeScript and Tailwind CSS.
 - Vercel for deployment
 
 ## Architecture
+
 - `src/app`: pages, layouts and API routes.
 - `src/components`: reusable visual components.
 - `src/services`: external API communication and integrations.
@@ -24,6 +27,7 @@ Personal portfolio built with Next.js, TypeScript and Tailwind CSS.
 Keep business logic separate from visual components whenever practical.
 
 ## Code Conventions
+
 - Use TypeScript for all application code.
 - Use PascalCase for React components.
 - Use camelCase for variables and functions.
@@ -35,6 +39,7 @@ Keep business logic separate from visual components whenever practical.
 - Never use `any` without a justified reason.
 
 ## Git Workflow
+
 - `main`: stable and deployable version.
 - `develop`: integration branch.
 - `feature/*`: individual features.
@@ -46,6 +51,7 @@ Keep business logic separate from visual components whenever practical.
   - `test`: tests.
 
 ## AI Behavior
+
 - Explain important implementation decisions.
 - Prefer simple, readable and maintainable solutions.
 - Do not introduce dependencies without justification.
@@ -57,6 +63,7 @@ Keep business logic separate from visual components whenever practical.
 - Help the developer understand and be able to explain the code.
 
 ## Quality Requirements
+
 - Run lint and relevant tests after changes.
 - Handle loading, error and empty states for API-driven data.
 - Protect private dashboard routes.
